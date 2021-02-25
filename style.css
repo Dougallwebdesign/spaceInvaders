@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.shooter {
+    background-color: blue;
+}
+
+.invader {
+    background-color: purple;
+    border-radius: 10px;
+    background-image: url("images/kisspng-space-invaders-video-game-clip-art-5b096812c43e32.1190607015273431228038.png");
+}
+
+.boom {
+    background-color: red;
+}
+
+.laser {
+    background-color: orange;
+}
