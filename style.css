@@ -3,6 +3,11 @@ body {
     text-align: center;
 }
 
+img {
+    max-width: 20%;
+    margin-top: 2em;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -24,8 +29,6 @@ body {
 .invader {
     background-color: purple;
     border-radius: 10px;
-    background-image: url("images/kisspng-space-invaders-video-game-clip-art-5b096812c43e32.1190607015273431228038.png");
-}
 
 .boom {
     background-color: red;
